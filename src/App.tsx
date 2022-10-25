@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 
-import GameBanner from './components/GameBanner'
+import GameBannerProps from './components/GameBanner'
 
 import './styles/main.css'
 import logo from './assets/logo-nlw-esports.svg'
@@ -46,6 +46,9 @@ function App() {
          *        - title: contem a string do titulo do jogo
          *        - adsCount: contém o número de ads de dentro de _count
          */
+        
+
+        
       }
 
       {
@@ -53,13 +56,10 @@ function App() {
          * Remova o trecho abaixo quando inserir o conteúdo da resposta acima
          */
       }
-      <GameBanner />
-      <GameBanner />
-      <GameBanner />
-      <GameBanner />
-      <GameBanner />
 
     </div>
+
+    <GameBannerProps/>
 
   </div>
 }
