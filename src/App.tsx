@@ -17,6 +17,8 @@ function App() {
    * (2pt) Crie uma variável de estado com o nome 'games' e defina como inicialmente um array vazio
    */
 
+  const[games, setGames]=useState(0);
+
   useEffect(() => {
     fetch('http://localhost:3333/games').then(response => response.json()).then(data => {
       /**
